@@ -1,6 +1,6 @@
 # Combat Log
 
-__Combat Log__ is a [Minehut Product](https://www.echology.page/socials/combat-log) that allows you to punish players who leave during combat!
+Combat Log is a [Minehut Product](https://www.echology.page/socials/combat-log) that allows you to punish players who leave during combat!
 
 > Works for **Paper and Spigot** servers on **1.13 - 1.18**
 >
