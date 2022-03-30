@@ -1,0 +1,10 @@
+name: CombatLog
+version: '${project.version}'
+main: page.echology.combatlog.CombatLog
+author: Echology
+website: www.echology.page
+api-version: 1.13
+commands:
+  combatlog:
+    description: Command for Combat Log plugin!
+    permission: combatlog.command

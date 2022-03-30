@@ -1,0 +1,42 @@
+combat-time: 100
+# time in ticks for combat (20 ticks = 1 second)
+
+update-interval: 20
+# amount of ticks taken to update, lower = more accurate
+
+Combat:
+  # configuration for players in combat
+
+  disabled-commands:
+    commands:
+      # a list of commands that are disabled for players in combat, just the first part of the command
+      # if the command you want to disable is "/warp spawn", just type "/warp" or "warp"
+      -
+    message: "&cYou cannot use '%command%' while in combat!"
+
+  enter:
+    # message sent when a player enters combat
+    action-bar: "" # leave blank for no action bar message
+    chat: "&cYou are currently in combat, if you log out now, you will be punished"
+  update:
+    # message sent when the combat log updates
+    action-bar: "&cYou are in combat, wait %time%s"
+    # message to be sent, %time% refers to the time in seconds
+    chat: ""
+  out:
+    # message sent when a player is out of combat
+    action-bar: "&aYou are now out of combat"
+    # message to be sent
+    chat: "&aYou are no longer in combat, you can safely disconnect now"
+
+Action:
+  # configuration for the stuff to do when someone logs out during combat
+  commands:
+    -
+    # for example:
+    # ban %player%
+
+  kill: true
+  # if you have this enabled, I suggest you enable inventory drops on death so they can drop their items
+
+  chat: "&c%player% has left while combat tagged, and they have been punished!"
