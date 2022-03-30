@@ -111,4 +111,5 @@ buildNumber.properties
 
 # Common working directory
 run/
-/src/main/java/page/echology/combatlog/
+
+/src/main/java
