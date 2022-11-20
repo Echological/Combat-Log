@@ -1,8 +1,6 @@
 combat-time: 100
 # time in ticks for combat (20 ticks = 1 second)
 
-update-interval: 20
-# amount of ticks taken to update, lower = more accurate
 
 Combat:
   # configuration for players in combat
